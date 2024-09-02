@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal
+}
+
+
+/* shared style  */
+
+
+.body{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-size: 16px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 40px;
+}
+
+
+/* primary color  */
+
+.primary-color{
+    color: rgb(230, 83, 60);
+}
+
+/* Header style starts from here  */
+
+
+.header{
+    max-width: 1440px;
+    max-height: 715px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(17, 17, 17)
+    rgba(119, 119, 119, 0));
+    border: 2px solid whitesmoke;
+}
+
+
+.brands{
+    font-size: 2.25rem;
+    font-weight: 800px;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+    width: 52px;
+    height: 22px;
+    padding: 12px 12px 15px 15px;
+    border-radius: 20px;
+
+}
+
+.nav-items1{
+    background-color: rgb(230, 83, 60);
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500px;
+    margin-top: 50px;
+
+}
+
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid paleturquoise;
+}
+
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.12rem;
+}
+
+
+/* banner section style */
+
+.banner{
+    margin: 0 auto;
+    margin-top: 0px;
+    border: 2px solid salmon;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.banner-1{
+    max-width: 520px;
+    margin-top: 20px;
+    border: 2px solid rgb(154, 110, 105);
+}
+
+.banner-heading{
+    font-size: 4.8rem;
+    font-weight: 900px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.banner-2{
+    margin-left: 167px;
+}
+
+
+#workout-btn{
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: -500px;
+    margin-left: 100px;
+
+}
+
+
+#workout-btn-quantity{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    align-items: left;
+    text-align: left;
+}
+
+#workout-btn-text{
+    font-size: 0.8rem;
+    color: #FFFFFFA6;
+    align-items: left;
+}
